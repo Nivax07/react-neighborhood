@@ -1,0 +1,42 @@
+[
+  {
+    "id": "58ab363d23188e3a4491ced8",
+    "name": "Manteigaria",
+    "position": {
+      "lat": 38.7067345,
+      "lng": -9.1481336
+    }
+  },
+  {
+    "id": "54343787498ec8da8a701566",
+    "name": "Taqueria Pistola y Corazon",
+    "position": {
+      "lat": 38.7086512,
+      "lng": -9.1499022
+    }
+  },
+  {
+    "id": "4e21eed688774a43b76f56f3",
+    "name": "Clube de Jornalistas",
+    "position": {
+      "lat": 38.7100708,
+      "lng": -9.1615175
+    }
+  },
+  {
+    "id": "549f5831498ed550218365fb",
+    "name": "A Cevicheria",
+    "position": {
+      "lat": 38.7159877,
+      "lng": -9.1497402
+    }
+  },
+  {
+    "id": "4c9e5f792fb1a1433ff2e940",
+    "name": "Cervejaria Ramiro",
+    "position": {
+      "lat": 38.7204563,
+      "lng": -9.1378685
+    }
+  }
+]
