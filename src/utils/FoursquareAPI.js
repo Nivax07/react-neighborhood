@@ -1,7 +1,7 @@
 import { FS_CLIENT_ID, FS_CLIENT_SECRET } from './apiKeys';
 
 const api = 'https://api.foursquare.com/v2/venues/';
-const version = '20180411';
+const version = '20180627';
 const lang = 'en';
 
 export const getDetails = (id) =>
