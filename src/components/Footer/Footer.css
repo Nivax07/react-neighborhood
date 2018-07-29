@@ -49,7 +49,7 @@ footer .icons a:focus:after {
   transform: scaleX(1);
 }
 
-@media (max-width: 769px) {
+@media only screen and (max-width: 769px) {
   footer {
     height: 100%;
   }
