@@ -17,7 +17,7 @@ export const getDetails = (id) =>
     .then(res => res.json())
     .then(data => data.response.venue)
     .catch(err => console.log('Couldn\'t retrieve venue details with ', err))
-    .then(function(response) {
+    .catch(function(response) {
       alert("Unable to Load Places. Daily Quota Exceeded!");
     }).catch(function(error) {
         console.log(error);
