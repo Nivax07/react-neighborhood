@@ -57,7 +57,7 @@ class MarkerInfo extends Component {
             error ? <Error message="There was an error while fetching this place's data. Please try again later." />
             : <div className="details-place" tabIndex="0" key={placeId}>
               <h3 className="details-title">
-                <a href={placeDetails.canonicalUrl}>{placeDetails.name}</a>
+                <a href={placeDetails.canonicalUrl!= undefined?this.state.name:"Title not found."}>{placeDetails.name}</a>
               </h3>
               <p className="details-address">{placeDetails.location.address || 'Address not found'}</p>
               <div
